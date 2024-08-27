@@ -1,4 +1,4 @@
-// This is a palindrome code.
+// palindrome logic:  A palindrome number can be a number or string that is the same after reverse. For example 545, 151, "racecar," "level" //
 import java.util.*;
 public class palindrome {
     public static void main(String[] args){
