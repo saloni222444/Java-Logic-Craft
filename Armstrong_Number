@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+public class ArmstrongNumber {
+    public static void main(String args[]) {
+        System.out.print("Enter a number to check: ");
+        Scanner sc = new Scanner(System.in);
+        int num = sc.nextInt();
+        int backup = num; // Store original number
+        int sum = 0;
+
+        // Logic to calculate the sum of cubes of digits
+        while (num > 0) {
+            int digit = num % 10;
+            sum = sum + (digit * digit * digit);
+            num = num / 10;
+        }
+
+        // Check if the sum of cubes equals the original number
+        if (sum == backup) {
+            System.out.println(backup + " is an Armstrong number.");
+        } else {
+            System.out.println(backup + " is not an Armstrong number.");
+        }
+
+        sc.close();
+    }
+}
