@@ -1,3 +1,5 @@
+//Reversing a number in Java involves reversing the digits of a given number. For example, if the input number is 12345, the output will be 54321. //
+
 import java.util.Scanner;
 
 public class ReverseNumber {  
