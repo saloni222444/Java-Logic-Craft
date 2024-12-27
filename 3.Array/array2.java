@@ -1,3 +1,5 @@
+//Passing array as argument 
+// their have two methods (1.pass by value 2.pass by reference)
 import java.util.*;
 
 public class array2{
