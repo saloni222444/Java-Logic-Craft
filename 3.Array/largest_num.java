@@ -1,0 +1,17 @@
+
+public class largest_num{
+
+    public static int get_largest(int number[]){
+        int largest = Integer.MIN_VALUE;
+        for(int i=0; i<number.length; i++){
+              if(largest < number[i]){
+                  largest = number[i];
+              }
+        }
+        return largest;
+    }
+    public static void main (String args[]){
+        int number[] = {1,4,2,7,9,4,2,5};
+        System.out.println("largest number is:" +get_largest(number)); 
+    }
+}
