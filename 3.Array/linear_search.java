@@ -1,3 +1,15 @@
+// This Java program performs a linear search to find a specific value (key) in an array.
+
+// linearSearch Method: Iterates through the array to check if the key exists.
+
+// Returns the index of the key if found.
+// Returns -1 if the key is not found.
+// main Method:
+
+// Initializes an array and a key value.
+// Calls linearSearch to find the key.
+// Prints "Key is at index: x" if found, or "Not Found" otherwise.
+
 import java.util.*;
 
 public class linear_search {
