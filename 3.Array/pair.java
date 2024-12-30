@@ -1,3 +1,10 @@
+//
+//This Java program prints all possible pairs of numbers from an array and counts the total number of pairs.
+//get_pair Method: Loops through the array to form and print pairs, then counts them.
+//main Method: Initializes an array and calls get_pair to process it.
+//For {2, 4, 3, 6, 7}, the output includes all pairs like (2,4), (2,3), etc., and the total count of pairs.
+
+
 import java.util.*;
 
 public class pair{
