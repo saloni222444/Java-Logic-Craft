@@ -1,3 +1,9 @@
+//This Java program reverses the elements of an array.
+
+//reverse Method: Swaps the first and last elements of the array, moving inward, until the entire array is reversed.
+//main Method: Initializes an array, calls reverse to reverse it, and then prints the reversed array.
+//For the array {1, 4, 3, 20, 3, 8}, the output will be: 8 3 20 3 4 1
+
 import java.util.*;
 
 public class reverse_num{
