@@ -1,3 +1,6 @@
+// This Java program implements binary search to find the index of a given key in a sorted array. 
+// It iteratively narrows down the search range and returns the index if the key is found or -1 if not. There's a typo in the method name binery_search which should be corrected.
+
 import java.util.*;
 
 public class binary_search{
