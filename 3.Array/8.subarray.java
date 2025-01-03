@@ -1,3 +1,12 @@
+// The program generates and prints all possible subarrays of a given array.
+
+// Outer Loop: Iterates through the array to set the starting point of the subarray.
+// Inner Loop: Iterates to set the ending point of the subarray.
+// Innermost Loop: Prints all elements from the start to the end index of the current subarray.
+// Example Output for {2, 4, 6, 8, 10}:
+
+// Subarrays: {2}, {2, 4}, {2, 4, 6}, ..., {10}
+
 import java.util.*;
 public class subarray{
     public static void Printsubarray(int number[]){
