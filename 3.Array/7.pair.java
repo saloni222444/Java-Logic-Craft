@@ -7,7 +7,7 @@
 
 import java.util.*;
 
-public class pair{
+public class 7.pair{
     public static void get_pair(int number[]){
         int total_pair = 0;
         for(int i=0; i<number.length; i++){

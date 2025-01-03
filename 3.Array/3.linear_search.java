@@ -12,7 +12,7 @@
 
 import java.util.*;
 
-public class linear_search {
+public class 3.linear_search {
 
     public static int linearSearch(int number[], int key) {
         for (int i = 0; i < number.length; i++) {

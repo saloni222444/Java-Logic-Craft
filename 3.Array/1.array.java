@@ -2,7 +2,7 @@
 // // This Java program takes three marks as input, stores them in an array, and prints them. There's a typo in System.out.pritnln.
 import java.util.*;
 
-public class array{
+public class 1.array{
     public static void main(String args[]){
         int marks[] = new int[100];
 

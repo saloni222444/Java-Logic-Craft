@@ -6,7 +6,7 @@
 
 import java.util.*;
 
-public class reverse_num{
+public class 6.reverse_num{
      public static void reverse(int number[]){
         int first = 0, last = number.length-1;
         while(first < last){

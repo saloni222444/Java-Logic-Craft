@@ -3,7 +3,7 @@
 
 import java.util.*;
 
-public class binary_search{
+public class 5.binary_search{
     public static int binery_search(int number[], int key){
         int start =0, end = number.length-1;
 

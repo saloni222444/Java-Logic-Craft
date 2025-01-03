@@ -1,6 +1,6 @@
 
 // This program finds the largest and smallest numbers in an array, prints the smallest, and returns the largest.
-public class largest_num{
+public class 4.largest_num{
     public static int get_largest(int number[]){
         int largest = Integer.MIN_VALUE;
         int smallest = Integer.MAX_VALUE;
