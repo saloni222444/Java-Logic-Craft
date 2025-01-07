@@ -1,7 +1,10 @@
+
+// A prime number is a number greater than 1 with only two factors: 1 and itself (e.g., 2, 3, 5, 7).
+
 import java.util.Scanner;
 public class PrimeNumberCheck {
   public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in)
+        Scanner scanner = new Scanner(System.in);
         System.out.print("Enter a number to check if it's prime: ");
         int number = scanner.nextInt();
         boolean isPrime = true;
